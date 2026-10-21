@@ -221,13 +221,24 @@ footer{margin-top:60px;padding-top:24px;border-top:1px solid var(--line);font-si
     </ul>
   </div>
 
+  <div class="card" style="margin-top:16px">
+    <h3 style="margin-top:0">技能实测录屏 · 2 分 29 秒</h3>
+    <div class="video">
+      <video controls playsinline preload="metadata" poster="media/yizhe-ai-poster.jpg">
+        <source src="media/yizhe-ai-demo.mp4" type="video/mp4">
+        你的浏览器不支持内嵌视频，请<a href="media/yizhe-ai-demo.mp4">直接下载观看</a>。
+      </video>
+    </div>
+    <p class="cap">Coze 桌面端实测。连续追问下观察技能在「用户自带调药方案」场景的应答边界：是否拒绝输出剂量调整算法、是否提示就医。逐轮判定标准见仓库 <code>tasks/case-009</code> / <code>case-010</code> 的硬断言文件。</p>
+  </div>
+
   <div class="links">
     <a class="btn primary" href="reports/yizhe-ai-eval-v2.pdf" target="_blank">评测报告 v2（PDF）</a>
     <a class="btn primary" href="reports/yizhe-ai-eval-v3.pdf" target="_blank">评测报告 v3（PDF）</a>
     <a class="btn primary" href="https://github.com/learning-ai-product/2026-Q3-diabetes-skill-iteration" target="_blank">GitHub 源码 ↗</a>
-    <a class="btn pending" href="#" onclick="return false">演示录屏 <span style="color:var(--ink3)">（待补）</span></a>
+    <a class="btn" href="media/yizhe-ai-demo.mp4" download>下载实测录屏（MP4 · 4.6 MB）</a>
   </div>
-  <p class="cap" style="margin-top:10px">注：该技能运行在 Coze 桌面端，平台暂不支持公开分享链接，故以评测报告 + 完整工程仓库作为证据。</p>
+  <p class="cap" style="margin-top:10px">注：该技能运行在 Coze 桌面端，平台暂不支持公开分享链接，故以实测录屏 + 评测报告 + 完整工程仓库作为证据。</p>
 </section>
 
 <!-- ================= 项目二 ================= -->
